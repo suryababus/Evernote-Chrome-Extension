@@ -1,0 +1,77 @@
+.searchbox{
+    border-color: white;
+    background-color:#525252 ;
+    color: white;
+    padding:5px;
+    font-size: 18px;
+}
+.deleteButton{
+    position: absolute;
+    background-color: #F61067;
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 27px;
+    border-radius: 50%;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+.navbar{
+    background-color: #282828;
+    padding: 10px;
+    color: white;
+    position: sticky;
+    top: 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    background: #1f1f1f;
+    min-width: 400px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    color: hsla(0,0%,100%,.87);
+}
+.card {
+    border-radius: 2px;
+    display: inline-block;
+    margin: 1rem;
+    position: relative;
+    padding: 20px;
+    width: 400px;
+    overflow-wrap: break-word;
+  }
+  
+  .card-1 {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  
+  .card-1:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+input{
+    font-size: 1.3rem;
+    border: none;
+    padding: 5px;
+    background-color: #363636;
+    color: hsla(0,0%,100%,.87);
+}
+input:focus{
+  outline: none;
+}
+.seperator{
+  border: 1px solid;
+  margin: 0px 10px;
+}
+img{
+  padding-top: 5px;
+    padding-right: 5px;
+}
